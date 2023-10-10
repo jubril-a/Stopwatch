@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+[data-function="start"] {
+    background-color: aqua;
+    color: #000;
+}
+
+[data-function="stop"] {
+    background-color: red;
+    color: #fff;
+}
